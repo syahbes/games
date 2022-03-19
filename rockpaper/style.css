@@ -1,0 +1,71 @@
+body { 
+  background-color: #15202b; 
+  color: aliceblue;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+  }
+h1 { color: white; }
+
+button {
+    background-color: #389eac;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.5;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  button:hover {opacity: 1}
+.myBox {
+  position: relative;
+  background-color: lightgrey;
+  width: 50%;
+  border: 5px solid #80A6F3;
+  padding: 7px;
+  margin: 5px;
+  color: black;
+}
+
+div.userChoise {
+  position: absolute;
+  width: 40%;
+  right: 0;
+  border: 3px solid #73AD21;
+}
+div.cpuChoise {
+  position: absolute;
+  width: 40%;
+  left: 0;
+  border: 3px solid #73AD21;
+}
+
+#won {
+	border-left: 5px solid #1C6EA4;
+  	background-color: lightgrey;
+    padding: 7px; 
+   	width: 20%;
+	}
+
+#lost {
+	border-left: 5px solid #ff0000;
+  	background-color: lightgrey;
+    padding: 7px; 
+   	width: 20%;
+	}
+
+#draw {
+	border-left: 5px solid #e6e600;
+  	background-color: lightgrey;
+    padding: 7px; 
+   	width: 20%;
+	}
